@@ -9,7 +9,10 @@ It is a Face Recognition project, which you can use it in different project to m
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Loading](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/Loading.JPG)
+![Add To Database](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/add.JPG)
+![Face Recognition](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/live.JPG)
+![Face Not Found](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/facenotfound.JPG)
 
 
 ## Libray Used
