@@ -24,7 +24,8 @@ It is a Face Recognition project, which you can use it in different project to m
 
 ## Note :
 
-#### You may face some problem while installing face-recognition. You can follow https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/ 
+#### You may face some problem while installing face-recognition. You can follow
+ [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/ )
 
 ## Authors
 
