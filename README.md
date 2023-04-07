@@ -18,9 +18,9 @@ It is a Face Recognition project, which you can use it in different project to m
 ## Libray Used
 
 
-####### > face-recognition (pip install face-recognition)
-####### > Open-cv
-####### > PyQt5 (for GUI)
+###### > face-recognition (pip install face-recognition)
+###### > Open-cv
+###### > PyQt5 (for GUI)
 
 ## Note :
 
