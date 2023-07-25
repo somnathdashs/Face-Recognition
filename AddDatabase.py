@@ -5,6 +5,7 @@ from PyQt5.QtGui import QIcon, QPixmap,QImage
 import sys
 import threading
 import time
+
 class AddDB(QtWidgets.QMainWindow):
     def __init__(self,parent=None):
         super(AddDB,self).__init__(parent)

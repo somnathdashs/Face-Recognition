@@ -19,7 +19,7 @@ class FRC(QtWidgets.QMainWindow):
              "Loading",
              "Loading.",
              "Loading..",
-             "Loading...",
+             "Loading...", 
              "Loading...."
         ]
         self.loadno=0
@@ -73,20 +73,21 @@ class FRC(QtWidgets.QMainWindow):
         for ef,locv in zip(end,loc):
             match = face_recognition.compare_faces(self.Known,ef)
             facedistanse = face_recognition.face_distance(self.Known,ef)
-            mi = np.argmin(facedistanse)
+            if len(facedistanse)>=0:
+                mi = np.argmin(facedistanse)
 
             if match[mi]:
                 self.name = self.PERSON_NAME[mi].upper()
                 y1,x2,y2,x1 = locv
                 y1,x2,y2,x1 = y1*4,x2*4,y2*4,x1*4
-                cv2.rectangle(img,(x1,y1),(x2,y2),(255,0,255))
-                cv2.putText(img,str(self.name),(x1,y2+30),cv2.FONT_HERSHEY_DUPLEX,1,(255,0,255))
+                cv2.rectangle(img,(x1,y1),(x2,y2),(255,255,0),3)
+                cv2.putText(img,str(self.name),(x1,y2+30),cv2.FONT_HERSHEY_DUPLEX,1,(255,255,0),3)
             else:
                 self.name="Unknow"
                 y1,x2,y2,x1 = locv
                 y1,x2,y2,x1 = y1*4,x2*4,y2*4,x1*4
-                cv2.rectangle(img,(x1,y1),(x2,y2),(255,0,255))
-                cv2.putText(img,"Unknow",(x1,y2+30),cv2.FONT_HERSHEY_DUPLEX,1,(255,0,255))
+                cv2.rectangle(img,(x1,y1),(x2,y2),(255,0,255),5)
+                cv2.putText(img,"Unknow",(x1,y2+30),cv2.FONT_HERSHEY_DUPLEX,1,(255,0,255),5)
             
         return img,self.name
                 
