@@ -9,7 +9,10 @@ It is a Face Recognition project, which you can use it in different project to m
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Loading](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/Loading.JPG)
+![Face Recognition](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/live.JPG)
+![Add To Database](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/add.JPG)
+![Face Not Found](https://raw.githubusercontent.com/somnathdashs/Face-Recognition/main/Preview/facenotfound.JPG)
 
 
 ## Libray Used
@@ -21,7 +24,8 @@ It is a Face Recognition project, which you can use it in different project to m
 
 ## Note :
 
-#### You may face some problem while installing face-recognition. You can follow https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/ 
+#### You may face some problem while installing face-recognition. You can follow
+ [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/ )
 
 ## Authors
 
